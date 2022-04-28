@@ -74,5 +74,5 @@ func main() {
 	os.Remove("tmpfile")
 
 	fmt.Printf("Elapsed Time: %dns \n", elapsed)
-	fmt.Printf("Write Speed: %.2fMB/s", float32(sizeToWrite)/(float32(elapsed)/1e9))
+	fmt.Printf("Write Speed: %.2fMB/s \n", float32(sizeToWrite)/(float32(elapsed)/1e9))
 }
